@@ -13,7 +13,7 @@ CI/CD pipelines are also prepared for automation and developer experience. This 
 
 Developer and project documentation is being actively written simultaneously with the application development. This helps to keep everything organized. Application's code is being written with clean code in mind and is being annotated with comments which helps documenting it. 
 
-**Frontend** client is developed with the use React library, uses Redux for a centralized store and Tailwind CSS and SASS for presentation layer. All code is written in TypeScript with the use of static typing and familiar TSX syntax. Various optimization techniques like prefetching and lazy loading of components are used to keep the application relatively lightweight and in-app navigation fluid.
+[Frontend](https://github.com/ksyzzy/BartenderApp-Frontend) client is developed in React, uses Redux for a centralized store, Tailwind CSS and SASS for presentation layer. All code is written in TypeScript with the use of static typing and familiar TSX syntax. Various optimization techniques like prefetching and lazy loading of components are used to keep the application relatively lightweight and in-app navigation fluid.
 
 Other key goals during frontend development are to attain high values of various Lighhouse metrics and other principles like:
 - high SEO value via use of metadata and sitemap.xml availability
@@ -22,7 +22,7 @@ Other key goals during frontend development are to attain high values of various
 - responsive web design so that the content of the page fluidly adapts to all supported devices and screen sizes
 - avoiding blocking architecture, long loading times before interactivity with smart assets loading strategy
 
-**Backend** part is written in Java with the use of Spring Framework and Hibernate for data access. BartenderApp uses relational PostgreSQL databases and tries to avoid the usage of ORM entirely in favor of parameterized queries and stored procedures. Database is optimized with indexes usage. Application uses extensive logging to quickly find out bugs and provide support in getting rid of the them.
+[Backend](https://github.com/ksyzzy/BartenderApp-Backend) part is written in Java with the use of Spring Framework and Hibernate for data access. BartenderApp uses relational PostgreSQL databases and tries to avoid the usage of ORM entirely in favor of parameterized queries and stored procedures. Database is optimized with indexes usage. Application uses extensive logging to quickly find out bugs and provide support in getting rid of the them.
 
 # Availability and uptime of the application
 Web application is being hosted for unknown duration. It means that I can take it down whenever the need arises to free up resources on my private machines. The source code will be available and you are free to host the application yourself. CI/CD pipelines are also made available for your convenience.
