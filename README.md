@@ -19,12 +19,12 @@ Other key goals during frontend development are to attain high values of various
 - high SEO value via use of metadata and sitemap.xml availability
 - optimization of CSS and JavaScript transfer, avoiding big payloads and smart dynamic loading of necessary code
 - website accessibility for use with screen readers, as well as the ability to navigate through the website with just keyboard alone
-- - responsive web design so that the content of the page fluidly adapts to all supported devices and screen sizes
+- responsive web design so that the content of the page fluidly adapts to all supported devices and screen sizes
 - avoiding blocking architecture, long loading times before interactivity with smart assets loading strategy
 
 **Backend** part is written in Java with the use of Spring Framework and Hibernate for data access. BartenderApp uses relational PostgreSQL databases and tries to avoid the usage of ORM entirely in favor of parameterized queries and stored procedures. Database is optimized with indexes usage. Application uses extensive logging to quickly find out bugs and provide support in getting rid of the them.
 
-# Availability and uptime of the application
+# Availability and uptime of the application BartenderApp is a web application for looking up drinks and cocktail ingredients. It will also assist you in orginizing your drinks cabinet at home 
 Web application is being hosted for unknown duration. It means that I can take it down whenever the need arises to free up resources on my private machines. The source code will be available and you are free to host the application yourself. CI/CD pipelines are also made available for your convenience.
 
 # License
